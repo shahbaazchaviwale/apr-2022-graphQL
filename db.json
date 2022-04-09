@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "11",
+      "firstName": "Yalli",
+      "age": 20,
+      "companyId": "1"
+    },
+    {
+      "id": "12",
+      "firstName": "Balli",
+      "age": 32,
+      "companyId": "2"
+    },
+    {
+      "id": "13",
+      "firstName": "Kalli",
+      "age": 37,
+      "companyId": "2"
+    },
+    {
+      "id": "14",
+      "firstName": "Malli",
+      "age": 39,
+      "companyId": "3"
+    },
+    {
+      "firstName": "naihal",
+      "age": 32,
+      "id": "etAP8ue"
+    },
+    {
+      "firstName": "mehul",
+      "age": 14,
+      "id": "iYnqlci"
+    },
+    {
+      "firstName": "shahbaz",
+      "age": 32,
+      "id": "cpxejrX"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "phone manufacture"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "search engine"
+    },
+    {
+      "id": "3",
+      "name": "Microsoft",
+      "description": "software manufacture"
+    }
+  ]
+}

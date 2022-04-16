@@ -81,6 +81,16 @@ const RootQuery = new GraphQLObjectType({
           .then((res) => res.data);
       },
     },
+    // get users list then use this code " type: new GraphQLList(Your_Type)"
+    users: {
+      type: new GraphQLList(UserType),
+      resolve(parentValue, args){
+    
+        return axios
+          .get(`http://localhost:5000/users/`)
+          .then((res) => res.data);
+      }
+    }
   },
 });
 
